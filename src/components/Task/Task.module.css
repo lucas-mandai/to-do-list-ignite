@@ -12,6 +12,7 @@
 }
 .task p{
     margin-right: auto;
+    line-height: 1.3rem;
 }
 
 .task p.textCompleted {
@@ -46,6 +47,8 @@
 }
 
 .deleteButton {
+    min-width: 1.25rem;
+    height: 1.25rem;
     background: none;
     border: none;
     color: var(--gray-300);
