@@ -1,0 +1,60 @@
+.tasks{
+    position: relative;
+}
+.taskHeader{
+    margin-top: 3rem;
+    display: flex;
+    justify-content: space-between;
+    position: relative;   
+    margin-bottom: 1.5rem; 
+}
+
+.info{
+    color: var(--blue);
+}
+
+.done{
+    color: var(--purple)
+}
+
+.counter{
+    margin-left: 10px;
+    font-size: 0.7rem;
+    display: inline;
+    padding: 2px 8px;
+    border-radius: 50px;
+    color: var(--gray-100);
+    background: var(--gray-500);
+}
+
+.empty{
+  height:15.25rem ;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: var(--gray-300);
+  gap: 0.5rem;
+}
+
+.empty strong{
+    margin-top: 1rem;
+    font-weight: bold;
+}
+
+.empty svg{
+    height: 2.75rem;
+}
+
+.empty::before{
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 13.5rem;
+    border-top: 1px solid var(--gray-400);
+    height: 5px;
+    width: 100%;
+}
+
+
+
