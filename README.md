@@ -9,7 +9,7 @@ Nesse desafio foi desenvolvida uma aplicação de controle de tarefas no estilo 
 - Remover uma tarefa da listagem
 - Mostrar o progresso de conclusão das tarefas
 
-### Nesse projeto foi utilizado
+### 🛠 Tecnologias utilizadas
 - Vite
 - CSS Modules
 - Typescript
